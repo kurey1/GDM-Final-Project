@@ -17,13 +17,13 @@ A bright, accessible mini‑platformer built in Unity. Players hop across colorf
 
 ## Project Structure
 /Assets
-    /Scripts
-    /Art
-    /Audio
-    /Prefabs
-    /Scenes
+/Scripts
+/Art
+/Audio
+/Prefabs
+/Scenes
 /Docs
-    [ProjectPlan.md](Docs/ProjectPlan.md)
+[ProjectPlan.md](Docs/ProjectPlan.md)
 /Builds
 
 ## Development Goals
