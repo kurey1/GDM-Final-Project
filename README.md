@@ -26,3 +26,11 @@ A bright, accessible mini‑platformer built in Unity. Players hop across colorf
     GDD_OnePage.pdf
     ProjectPlan.md
 /Builds
+
+## Development Goals
+- Build a polished, small‑scope platformer within a 10‑week timeline  
+- Maintain clean, organized version control  
+- Deliver a playable prototype and final build  
+
+## Project Plan
+See **Docs/ProjectPlan.md** for milestones, tasks, and deadlines.
