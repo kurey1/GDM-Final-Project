@@ -33,4 +33,5 @@ A bright, accessible mini‑platformer built in Unity. Players hop across colorf
 - Deliver a playable prototype and final build, so it can be enjoyed by all
 
 ## Project Plan
-See **Docs/ProjectPlan.md** for tasks and deadlines.
+[ProjectPlan.md](Docs/ProjectPlan.md)
+
