@@ -16,12 +16,12 @@ A bright, accessible mini‑platformer built in Unity. Players hop across colorf
 - **Version Control:** Git + GitHub  
 
 ## Project Structure
-/Assets
-    /Scripts
-    /Art
-    /Audio
-    /Prefabs
-    /Scenes
+Assets/
+    Scripts/
+    Art/
+    Audio/
+    Prefabs/
+    Scenes/
 /Docs
     [ProjectPlan.md](Docs/ProjectPlan.md)
 /Builds
