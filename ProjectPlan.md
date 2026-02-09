@@ -5,7 +5,7 @@ A project management plan for a small, accessible Unity platformer. Timeline beg
 
 ---
 
-# 📅 Milestones & Deadlines
+# Milestones & Deadlines
 
 ## **Milestone 1 — Feb 9–Feb 15 (Week 1)  
 Setup & Planning**
