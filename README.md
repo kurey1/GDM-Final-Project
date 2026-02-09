@@ -23,8 +23,9 @@ A bright, accessible mini‑platformer built in Unity. Players hop across colorf
 /Prefabs
 /Scenes
 /Docs
-[ProjectPlan.md](Docs/ProjectPlan.md)
+/[ProjectPlan.md](Docs/ProjectPlan.md)
 /Builds
+/README.md
 
 ## Development Goals
 - Build a polished, small‑scope platformer within 10 weeks
