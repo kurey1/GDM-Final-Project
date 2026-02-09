@@ -23,8 +23,8 @@ A bright, accessible mini‑platformer built in Unity. Players hop across colorf
     /Prefabs
     /Scenes
 /Docs
-    GDD_OnePage.pdf
-    ProjectPlan.md
+    [GDD_OnePage.pdf
+    [ProjectPlan.md](ProjectPlan.md)
 /Builds
 
 ## Development Goals
