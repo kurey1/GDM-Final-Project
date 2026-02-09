@@ -23,8 +23,7 @@ A bright, accessible mini‑platformer built in Unity. Players hop across colorf
     /Prefabs
     /Scenes
 /Docs
-    [GDD_OnePage.pdf
-    [ProjectPlan.md](ProjectPlan.md)
+    [ProjectPlan.md](Docs/ProjectPlan.md)
 /Builds
 
 ## Development Goals
@@ -33,5 +32,5 @@ A bright, accessible mini‑platformer built in Unity. Players hop across colorf
 - Deliver a playable prototype and final build, so it can be enjoyed by all
 
 ## Project Plan
-Visit [ProjectPlan.md](ProjectPlan.md) to view tasks and deadlines.
+Visit [ProjectPlan.md](Docs/ProjectPlan.md) to view tasks and deadlines.
 
