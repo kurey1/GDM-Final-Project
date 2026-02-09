@@ -8,9 +8,9 @@ A bright, accessible mini‑platformer built in Unity. Players hop across colorf
 - Multi‑level stages that teach one mechanic at a time  
 - Light enemy interactions (stomp/attack)  
 - Collect‑a‑thon style items for score and health  
-- A final mastery challenge stage  
+- A final challenge stage  
 
-## Tech Stack
+## Technology
 - **Engine:** Unity  
 - **Language:** C#  
 - **Version Control:** Git + GitHub  
@@ -28,9 +28,9 @@ A bright, accessible mini‑platformer built in Unity. Players hop across colorf
 /Builds
 
 ## Development Goals
-- Build a polished, small‑scope platformer within a 10‑week timeline  
+- Build a polished, small‑scope platformer within 10 weeks
 - Maintain clean, organized version control  
-- Deliver a playable prototype and final build  
+- Deliver a playable prototype and final build, so it can be enjoyed by all
 
 ## Project Plan
-See **GDM-Final-Project/ProjectPlan.md** for milestones, tasks, and deadlines.
+See **Docs/ProjectPlan.md** for tasks and deadlines.
