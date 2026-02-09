@@ -26,4 +26,3 @@ A bright, accessible mini‑platformer built in Unity. Players hop across colorf
     GDD_OnePage.pdf
     ProjectPlan.md
 /Builds
-README.md
