@@ -1,5 +1,5 @@
 # GDM-Final-Project
-# [Game Title Placeholder]
+# [Game Title Not Yet Chosen]
 
 A bright, accessible mini‑platformer built in Unity. Players hop across colorful platforms, defeat simple enemies, and collect items while progressing through multi‑level stages designed to build their skills.
 
