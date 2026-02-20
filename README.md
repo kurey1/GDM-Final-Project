@@ -15,13 +15,15 @@ A bright, accessible mini‑platformer built in Unity. Players hop across colorf
 - **Language:** C#  
 - **Version Control:** Git + GitHub  
 
+## MVP Development
+For my MVP, I focused on building the mechanics that make my platformer functional and playable from start to end. The MVP includes player movement such as walking and jumping, collectible coins that increase the score, enemy interactions that challenge the player, and a finish line that triggers a level‑complete screen. I also added in a respawn system so the player returns to the starting point if they fall, along with basic UI elements like a controls overlay and a score display. With all these together, these features create a complete gameplay loop: move, collect, avoid danger, and reach the goal.
+
+Throughout this process, I learned how much time and attention to detail game development really requires. Even simple mechanics took longer than what I thought because every part needed to work correctly and interact smoothly with the others to avoid any bugs or confusion. I gained a better understanding of Unity’s UI system, collision detection, triggers, and how scripts are usually the key. I also learned the importance of testing repeatedly, since small issues can appear out of the blue when multiple systems work together, causing them to overlap.
+
+My next steps involve expanding the game beyond the MVP. I plan to add additional levels with increasing difficulty, level progression, and more polished visual designs. I also want to include a health system with heart icons too, more animations for the player and enemies, and different background music. Over time, I want players to gradually learn new skills and mechanics as the levels become more challenging. For exmaple, the first level will just be getting a feel for the game, then the next one you'll learn how to jump, etc.
+
+
 ## Project Structure
-/Assets
-/Scripts
-/Art
-/Audio
-/Prefabs
-/Scenes
 /Docs
 /[ProjectPlan.md](Docs/ProjectPlan.md)
 /Builds
