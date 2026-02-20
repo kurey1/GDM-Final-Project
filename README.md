@@ -26,6 +26,7 @@ My next steps involve expanding the game beyond the MVP. I plan to add additiona
 ## Project Structure
 /Docs
 /[ProjectPlan.md](Docs/ProjectPlan.md)
+/Feedback Section
 /Builds
 /README.md
 
