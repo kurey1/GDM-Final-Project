@@ -1,16 +1,22 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class EnemyHit : MonoBehaviour
 {
-    private void OnCollisionEnter2D(Collision2D collision)
+    
+    public AudioClip stompSound;
+
+    public void Stomp(Collider2D player)
     {
-        if (collision.collider.CompareTag("Player"))
+        Rigidbody2D rb = player.GetComponent<Rigidbody2D>();
+        if (rb != null)
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, 7f);
+
+        
+        if (stompSound != null)
         {
-            
-            if (collision.contacts[0].normal.y < -0.5f)
-            {
-                Destroy(gameObject);
-            }
+            AudioSource.PlayClipAtPoint(stompSound, transform.position);
         }
+
+        Destroy(gameObject);
     }
 }

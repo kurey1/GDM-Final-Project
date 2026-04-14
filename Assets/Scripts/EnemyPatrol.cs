@@ -1,21 +1,38 @@
-using UnityEngine;
+﻿using UnityEngine;
 
-public class EnemyPatrol : MonoBehaviour
+[RequireComponent(typeof(Rigidbody2D))]
+public class PatrolEnemy : MonoBehaviour
 {
     public float speed = 2f;
-    public Transform groundCheck;
-    public float groundCheckDistance = 1f;
     public LayerMask groundLayer;
+    public float groundCheckDistance = 0.1f;
+    public float rayOffsetX = 0.25f; 
 
     private bool movingRight = true;
+    private Rigidbody2D rb;
+    private Collider2D enemyCollider;
 
-    void Update()
+    void Start()
     {
-        transform.Translate(Vector2.right * speed * Time.deltaTime * (movingRight ? 1 : -1));
+        rb = GetComponent<Rigidbody2D>();
+        rb.gravityScale = 1;
+        rb.constraints = RigidbodyConstraints2D.FreezeRotation;
+        enemyCollider = GetComponent<Collider2D>();
+    }
 
-        RaycastHit2D groundInfo = Physics2D.Raycast(groundCheck.position, Vector2.down, groundCheckDistance, groundLayer);
+    void FixedUpdate()
+    {
+        
+        rb.linearVelocity = new Vector2(speed * (movingRight ? 1 : -1), rb.linearVelocity.y);
 
-        if (groundInfo.collider == false)
+        
+        Vector2 origin = (Vector2)transform.position + new Vector2((movingRight ? rayOffsetX : -rayOffsetX), -enemyCollider.bounds.extents.y);
+        RaycastHit2D hit = Physics2D.Raycast(origin, Vector2.down, groundCheckDistance, groundLayer);
+
+        Debug.DrawRay(origin, Vector2.down * groundCheckDistance, Color.red);
+
+        
+        if (hit.collider == null)
         {
             Flip();
         }
@@ -25,8 +42,9 @@ public class EnemyPatrol : MonoBehaviour
     {
         movingRight = !movingRight;
 
-        Vector3 localScale = transform.localScale;
-        localScale.x *= -1;
-        transform.localScale = localScale;
+        
+        Vector3 scale = transform.localScale;
+        scale.x *= -1;
+        transform.localScale = scale;
     }
 }

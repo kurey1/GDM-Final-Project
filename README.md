@@ -1,27 +1,73 @@
 # GDM-Final-Project
-# [Game Title Not Yet Chosen]
+# Game Title: Simple Steps
 
-A bright, accessible mini‑platformer built in Unity. Players hop across colorful platforms, defeat simple enemies, and collect items while progressing through multi‑level stages designed to build their skills.
-
-## Core Features
-- Simple, responsive platforming controls  
-- Multi‑level stages that teach one mechanic at a time  
-- Light enemy interactions (stomp/attack)  
-- Collect‑a‑thon style items for score and health  
-- A final challenge stage  
+**Simple Steps** is a bright, accessible 2D platformer focused on movement, simple mechanics, and skill‑building. Designed to be friendly for all players, the game focuses on clarity, responsiveness, and small, satisfying challenges.
 
 ## Technology
 - **Engine:** Unity  
 - **Language:** C#  
 - **Version Control:** Git + GitHub  
 
-## MVP Development
-For my MVP, I focused on building the mechanics that make my platformer functional and playable from start to end. The MVP includes player movement such as walking and jumping, collectible coins that increase the score, enemy interactions that challenge the player, and a finish line that triggers a level‑complete screen. I also added in a respawn system so the player returns to the starting point if they fall, along with basic UI elements like a controls overlay and a score display. With all these together, these features create a complete gameplay loop: move, collect, avoid danger, and reach the goal.
+---
 
-Throughout this process, I learned how much time and attention to detail game development really requires. Even simple mechanics took longer than what I thought because every part needed to work correctly and interact smoothly with the others to avoid any bugs or confusion. I gained a better understanding of Unity’s UI system, collision detection, triggers, and how scripts are usually the key. I also learned the importance of testing repeatedly, since small issues can appear out of the blue when multiple systems work together, causing them to overlap.
+## Features
 
-My next steps involve expanding the game beyond the MVP. I plan to add additional levels with increasing difficulty, level progression, and more polished visual designs. I also want to include a health system with heart icons too, more animations for the player and enemies, and different background music. Over time, I want players to gradually learn new skills and mechanics as the levels become more challenging. For exmaple, the first level will just be getting a feel for the game, then the next one you'll learn how to jump, etc.
+- Responsive platforming with simple, readable level design  
+- Beginner‑friendly curve  
+- Collectibles that reward exploration  
+- Light enemy interactions (stomp or avoid)  
+- Clear level‑end goal marker  
+- Minimal UI for an uncluttered experience  
+- Built for easy expansion (more levels, hazards, mechanics)
 
+---
+
+## Controls
+
+| Action          | Key(s)                     |
+|-----------------|----------------------------|
+| Move Left       | **Left Arrow**             |
+| Move Right      | **Right Arrow**            |
+| Jump            | **Spacebar**               |
+| Restart Level   | **E**                      |
+| Return to Title | **Q**                      |
+
+---
+
+## Core Mechanics
+
+### **Platforming**
+- Single‑button jump with variable height  
+- Static and moving platforms  
+- Designed to teach one mechanic at a time  
+
+### **Enemies**
+- Basic patrol behavior  
+- Player can stomp or avoid depending on level
+- Encourages timing and spatial awareness  
+
+### **Collectibles**
+- Coins placed throughout levels  
+- Optional challenge for completionists  
+
+### **Level Completion**
+- Reach the finish marker to complete the stage  
+- Smooth transition to next level or title screen  
+---
+
+## Asset Credits & Attributions
+
+All visual and audio assets used in **Simple Steps** are not original creations.  
+They were sourced from the following locations and are used under their respective licenses:
+
+- **Unity Asset Store** — Free asset packs used for sprites, tiles, and UI elements  
+- **OpenGameArt.org** — Community‑shared assets under CC0 / CC‑BY licenses  
+- **Pixabay** — Free-to-use images and sound effects (CC0)
+
+All rights for these assets remain with their original creators.  
+Only the game code and custom content in this repository are my own.
+
+---
 
 ## Project Structure
 /Docs
