@@ -1,6 +1,8 @@
 # GDM-Final-Project
 # Game Title: Simple Steps
 
+**Play the game here! No installation needed:** https://kurey1.github.io/simplesteps-build/
+
 **Simple Steps** is a bright, accessible 2D platformer focused on movement, simple mechanics, and skill‑building. Designed to be friendly for all players, the game focuses on clarity, responsiveness, and small, satisfying challenges.
 
 ## Technology
