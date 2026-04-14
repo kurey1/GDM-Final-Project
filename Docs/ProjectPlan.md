@@ -1,4 +1,4 @@
-# Project Plan — [Game Title Not Yet Chosen]
+# Project Plan — Simple Steps
 
 ## Overview
 A project management plan for a small, accessible Unity platformer. Timeline begins **February 9-15** and ends **April 20–26**.
